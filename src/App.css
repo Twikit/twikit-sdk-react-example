@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.twikit-body {
+  height: 100px;
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.twikit-body .twikit-canvas-3d-root {
+  height: 100%;
+}
+.twikit-parameters {
+  width: 30%;
+  height: auto;
+  overflow: scroll;
+  text-align: left;
+  padding: 20px;
+}
